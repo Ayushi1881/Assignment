@@ -7,13 +7,13 @@ body{
   display: inline-flex;
   padding: 8vw 2vw;
   height: 50%;
-  width: 50%;
+  width: 80%;
 }
 .flex-container{
   display: flexbox;
 }
 image{
-  width: auto;
+  width: 50%;
   height: auto;
 }
 .head{

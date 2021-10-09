@@ -6,12 +6,15 @@ body{
 .image{
   display: inline-flex;
   padding: 8vw 2vw;
-  height: auto;
-  width: 40%;
-
+  height: 30%;
+  width: 30%;
+}
+.flex-container{
+  display: flexbox;
 }
 image{
-  width: 50%;
+  width: auto;
+  height: auto;
 }
 .head{
   display: flex;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="Q1.js"></script>
+    <title>Attach JS</title>
+  </head>
+  <body style="Background-color: #FFE3E3;
+              font-size: 2.5vw;
+  ">
+    <h1>Create JS File using HTML</h1>
+    You can include JavaScript in your HTML in two ways:
+    <ul>
+      <li>Writing the code in your HTML</li>
+      <li>Including it as a link to an external file</li>
+    </ul>
+    For the most part, you will include the JavaScript as an external file.
+    <h2>Using External JS</h2>
+    To include an external JavaScript file, we can use the script tag with the attribute src. You've already used the src attribute when using images. The value for the src attribute should be the path to your JavaScript file.
+    <h3 style="Background-color: black;color:white" > &lt script type="text/javascript" src="path-to-javascript-file.js" &gt &lt /script &gt</h3>
+    <h2>Using Internal JS</h2>
+    Here's a very basic snippet of JavaScript using the script tag. This JavaScript is written directly into our HTML page. It will call and alert box as soon as the page loads.
+    <h3 style="Background-color: black;color:white">&lt script type="text/javascript" &gt alert("This alert box was called with the onload event");&lt/script &gt </h3>
+    <script type="text/javascript">
+      console.log("This is internal js and EOP(End of program)")
+    </script>
+  </body>
+</html>
